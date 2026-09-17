@@ -1,0 +1,12 @@
+{
+  "name": "varamin-premium-railway",
+  "version": "18.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {"node": ">=22.12.0"},
+  "scripts": {
+    "start": "node main-server.js",
+    "start:site": "node main-server.js",
+    "start:admin": "node admin-server.js"
+  }
+}
